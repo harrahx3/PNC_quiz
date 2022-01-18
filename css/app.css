@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+  background: #eec;
+}
+
+#playQuiz {display: none}
+#playQuiz:target {display: block}
+
+#editQuiz {display: none}
+#editQuiz:target {display: block}

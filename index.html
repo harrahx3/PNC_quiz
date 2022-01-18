@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Project</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <a href="#playQuiz">Play</a>
+      <a href="#editQuiz">Edit</a>
+    </div>
+    <div id="playQuiz">
+      <h2>Play Quiz</h2>
+      <ul id="quiz"></ul>
+      <button id="submitAnswers">Submit Answers</button>
+      <div><span id="showScore"></span> </div>
+    </div>
+    <div id="editQuiz">
+      <h2>Add new Question to quiz</h2>
+      <form>
+        <input id="addQuestion" type="text" placeholder="Question"> <br>
+        <input type="radio" name="correctAnswer" class="addCorrectAnswer" value="0">
+        <input id="addAnswer1" type="text" class="addPossibleAnswer" placeholder="Answer 1"> <br>
+        <input type="radio" name="correctAnswer" class="addCorrectAnswer" value="1">
+        <input id="addAnswer2" type="text" class="addPossibleAnswer" placeholder="Answer 2"> <br>
+        <input type="radio" name="correctAnswer" class="addCorrectAnswer" value="2">
+        <input id="addAnswer3" type="text" class="addPossibleAnswer" placeholder="Answer 3"> <br>
+        <input type="radio" name="correctAnswer" class="addCorrectAnswer" value="3">
+        <input id="addAnswer4" type="text" class="addPossibleAnswer" placeholder="Answer 4"> <br>
+        <button id="addQuestionButton" type="submit">Add new Question to quiz</button>
+      </form>
+    </div>
+  </body>
+</html>
